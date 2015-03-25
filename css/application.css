@@ -1,0 +1,310 @@
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:300,300italic,600,600italic,700');
+body,input,textarea,select
+{
+	font-family: 'Open Sans', sans-serif;
+	line-height: 1.85em;
+	color: #3e3e3e;
+}
+blockquote
+{
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+blockquote p
+{
+	font-size: 1em;
+	font-weight: bold;
+}
+input[type="text"], textarea
+{
+	width: 95%;
+}
+textarea
+{
+	height: 14em;
+}
+hr
+{
+	border: 0;
+	border-top: solid 1px #444;
+	border-top-color: rgba(0,0,0,0.35);
+	box-shadow: 0px 1px 0px 0px rgba(255,255,255,0.1);
+	height: 1px;
+	margin: 3em 0 4em 0;
+}
+.navbar
+{
+	font-size: 100%;
+	font: inherit;
+	font-weight: bold;
+}
+.navbar .brand
+{
+	font-weight: bold;
+}
+ul.nav li
+{
+	padding-top: 3px;
+}
+div.thumbnail div.caption p
+{
+	font-size: 1.1em;
+}
+.bbz-container
+{
+	padding: 140px 0px 160px 0px;
+	box-shadow: inset 0px 1px 0px 0px rgba(0,0,0,0.05), inset 0px 2px 3px 0px rgba(0,0,0,0.1);
+}
+.bbz-container p.lead
+{
+	margin: 60px 0px 60px 0px;
+}
+#init
+{
+	background-color: #FFF;
+}
+#init .container
+{
+	padding: 110px 0px 140px 0px;
+}
+#init h1
+{
+	font-size: 4em;
+	line-height: 1em;
+	font-weight: lighter;
+	padding-left: 10px;
+}
+#init p.lead
+{
+	margin: 12px 0px 0px 0px;
+	font-size: 1.7em;
+	font-weight: 200;
+	line-height: 45px;
+	padding-left: 10px;
+}
+#init-addthis
+{
+	min-height: 39px;
+}
+#principles
+{
+	background-color: #fafafa;
+}
+#principles ul.thumbnails li
+{
+	background-color: #FFF;
+	box-shadow: inset 0px 0px 0px 1px rgba(0,0,0,0.15), 0px 2px 3px 0px rgba(0,0,0,0.1);
+}
+#principles .thumbnail
+{
+	padding-top: 25px;
+}
+#interests
+{
+	background-color: #f4f4f4;
+}
+#interests-sc-row
+{
+	margin-top: 50px;
+}
+#contact
+{
+	background-color: #303030; color: #FFF;
+}
+#contact-buttons
+{
+	margin-top: 15px;
+}
+#contact-buttons button
+{
+	margin-top: 15px;
+}
+#contact-btn-submit {
+	margin-right: 10px;
+}
+
+/* Desktop large
+------------------------- */
+@media (min-width: 1200px) {
+	#contact-container {
+		width: 900px;
+		margin: auto;
+	}
+}
+
+/* Desktop
+------------------------- */
+@media (min-width: 980px) and (max-width: 1199px) {
+	#contact-container {
+		width: 900px;
+		margin: auto;
+	}
+	#init h1
+	{
+		font-size: 3.6em;
+	}
+	#init p.lead
+	{
+		font-size: 1.5em;
+	}
+}
+
+/* Tablet to desktop
+------------------------- */
+@media (min-width: 768px) and (max-width: 979px) {
+	body{padding-top: 0px;}
+	.bbz-container{
+		padding-top: 70px;
+		margin-top: -20px;
+	}
+	.navbar-inverse .nav-collapse .nav>li>a:hover, .navbar-inverse .nav-collapse .dropdown-menu a:hover,
+	.navbar-inverse .nav-collapse .nav>li>a:focus, .navbar-inverse .nav-collapse .dropdown-menu a:focus {
+		color: #fff;
+	}
+	.navbar-inverse .nav .active>a
+	{
+		color: #999;
+		background-color: #1b1b1b;
+	}
+	.navbar-inverse .nav a:hover, .navbar-inverse .nav a:focus,
+	.navbar-inverse .nav .active>a:hover, .navbar-inverse .nav .active>a:focus
+	{
+		color: #fff;
+	}
+	.navbar .nav>.active>a
+	{
+		color: #999;
+		text-decoration: none;
+		background-color: #1b1b1b;
+		-webkit-box-shadow: inset 0 0px 0px rgba(0,0,0,0);
+		-moz-box-shadow: inset 0 0px 0px rgba(0,0,0,0);
+		box-shadow: inset 0 0px 0px rgba(0,0,0,0);
+	}
+	.navbar .nav>a:hover, .navbar .nav>a:focus,
+	.navbar .nav>.active>a:hover, .navbar .nav>.active>a:focus
+	{
+		color: #fff;
+	}
+	#init h1
+	{
+		font-size: 2.6em;
+	}
+	#init p.lead
+	{
+		font-size: 1.2em;
+	}
+}
+
+/* Tablet
+------------------------- */
+@media (max-width: 767px) {
+	body{padding-top: 0px;}
+	.bbz-container {
+		padding: 70px 20px;
+		margin-top:   -20px;
+		margin-right: -20px;
+		margin-left:  -20px;
+	}
+	#init .container{padding: 0px 0px 40px 0px;}
+	#init-description{margin-top: 15px;}
+	#interests-sc-row{margin-top: 0px;}
+	.navbar-inverse .nav-collapse .nav>li>a:hover, .navbar-inverse .nav-collapse .dropdown-menu a:hover,
+	.navbar-inverse .nav-collapse .nav>li>a:focus, .navbar-inverse .nav-collapse .dropdown-menu a:focus {
+		color: #fff;
+	}
+	.navbar-inverse .nav .active>a
+	{
+		color: #999;
+		background-color: #1b1b1b;
+	}
+	.navbar-inverse .nav a:hover, .navbar-inverse .nav a:focus,
+	.navbar-inverse .nav .active>a:hover, .navbar-inverse .nav .active>a:focus
+	{
+		color: #fff;
+	}
+	.navbar .nav>.active>a
+	{
+		color: #999;
+		text-decoration: none;
+		background-color: #1b1b1b;
+		-webkit-box-shadow: inset 0px 0px 0px rgba(0,0,0,1);
+		-moz-box-shadow: inset 0px 0px 0px rgba(0,0,0,1);
+		box-shadow: inset 0px 0px 0px rgba(0,0,0,1);
+	}
+	.navbar .nav>a:hover, .navbar .nav>a:focus,
+	.navbar .nav>.active>a:hover, .navbar .nav>.active>a:focus
+	{
+		color: #fff;
+	}
+	#init-addthis
+	{
+		text-align: left;
+	}
+	#init h1
+	{
+		font-size: 2.6em;
+	}
+	#init p.lead
+	{
+		font-size: 1.2em;
+	}
+}
+
+/* Landscape phones
+------------------------- */
+@media (max-width: 480px) {
+	body{padding-top: 0px;}
+	.bbz-container {
+		padding: 70px;
+	}
+	#init .container{padding: 0px 0px 40px 0px;}
+	#init-description{margin-top: 15px;}
+	#interests-sc-row{margin-top: 0px;}
+	.navbar-inverse .nav-collapse .nav>li>a:hover, .navbar-inverse .nav-collapse .dropdown-menu a:hover,
+	.navbar-inverse .nav-collapse .nav>li>a:focus, .navbar-inverse .nav-collapse .dropdown-menu a:focus {
+		color: #fff;
+	}
+	.navbar-inverse .nav .active>a
+	{
+		color: #999;
+		background-color: #1b1b1b;
+	}
+	.navbar-inverse .nav a:hover, .navbar-inverse .nav a:focus,
+	.navbar-inverse .nav .active>a:hover, .navbar-inverse .nav .active>a:focus
+	{
+		color: #fff;
+	}
+	.navbar .nav>.active>a
+	{
+		color: #999;
+		text-decoration: none;
+		background-color: #1b1b1b;
+		-webkit-box-shadow: inset 0px 0px 0px rgba(0,0,0,1);
+		-moz-box-shadow: inset 0px 0px 0px rgba(0,0,0,1);
+		box-shadow: inset 0px 0px 0px rgba(0,0,0,1);
+	}
+	.navbar .nav>a:hover, .navbar .nav>a:focus,
+	.navbar .nav>.active>a:hover, .navbar .nav>.active>a:focus
+	{
+		color: #fff;
+	}
+	#init-description
+	{
+		text-align: center;
+	}
+	#init-addthis
+	{
+		text-align: left;
+	}
+	#init h1
+	{
+		font-size: 2.6em;
+	}
+	#init p.lead
+	{
+		font-size: 1.2em;
+	}
+	#contact-btn-submit {
+		margin-right: 0px;
+	}
+}
